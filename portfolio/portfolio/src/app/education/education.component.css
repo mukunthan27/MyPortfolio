@@ -1,0 +1,50 @@
+.container{
+    margin: 30px;
+}
+.container h2{
+    margin: 30px 0px;
+}
+.container .content1{
+    display: none;
+}
+.container table{
+    margin: 30px 0px;
+    width: 100%;
+}
+.container table th,td{
+    border: 1px solid brown;
+    padding: 15px;
+    text-align: center;
+}
+.container table th{
+    background-color: brown;
+    color: white;
+}
+.container .mover{
+    padding-top: 30px;
+    text-align: center;
+}
+.container .mover input{
+    margin: 20px;
+    cursor: pointer;
+    accent-color: brown;
+}
+
+@media screen and (max-width: 700px) {
+    .container .content{
+        display: none;
+    }
+    .container .content1{
+        display: unset;
+    }
+    .container .content1 table{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+        margin: unset;
+        margin-left: 15px;
+    }
+}
