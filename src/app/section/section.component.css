@@ -16,7 +16,7 @@
 }
 .container .detail{
     width: 100%;
-    position:sticky;
+    /* position:sticky; */
     overflow: scroll;
     scroll-behavior: smooth;
     overflow-x: hidden;
